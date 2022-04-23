@@ -1,0 +1,61 @@
+body {
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+form {
+    display: inline-block;
+}
+
+.form-group {
+    display: flex;
+}
+
+header {
+    background-color: rgb(106, 180, 255);
+    color: white;
+    padding: 30px;
+}
+
+#slotIcons {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: max-content max-content max-content;
+    justify-content: center;
+}
+
+.slotIcon {
+    border-style: solid;
+    border-width: 0.5px;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 50px;
+    background-color: rgb(27, 27, 27);
+    width: 150px;
+}
+
+label, input, button {
+    margin: 10px;
+}
+
+footer {
+    padding: 20px;
+    margin-bottom: auto;
+}
+
+#money {
+    padding: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: large;
+}
+
+#result {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+#invalidAmount {
+    color: rgb(252, 143, 143);
+}
